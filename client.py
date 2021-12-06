@@ -15,7 +15,7 @@ except ConnectionRefusedError:
     exit()
 
 # send an encoded message to the server
-data = "exit"   # "Hello Server!"
+data = "Hello Server!"
 s.send(data.encode())
 
 # receive data from the server and decoding to get the string.
